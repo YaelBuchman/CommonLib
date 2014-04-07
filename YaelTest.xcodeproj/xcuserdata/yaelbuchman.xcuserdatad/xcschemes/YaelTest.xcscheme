@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0500"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "35982E3D18F155F500CE215A"
+               BlueprintIdentifier = "350E0D5718F2692F001424FB"
                BuildableName = "YaelTest.app"
                BlueprintName = "YaelTest"
                ReferencedContainer = "container:YaelTest.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "35982E6118F155F500CE215A"
+               BlueprintIdentifier = "350E0D7218F26930001424FB"
                BuildableName = "YaelTestTests.xctest"
                BlueprintName = "YaelTestTests"
                ReferencedContainer = "container:YaelTest.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "35982E3D18F155F500CE215A"
+            BlueprintIdentifier = "350E0D5718F2692F001424FB"
             BuildableName = "YaelTest.app"
             BlueprintName = "YaelTest"
             ReferencedContainer = "container:YaelTest.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "35982E3D18F155F500CE215A"
+            BlueprintIdentifier = "350E0D5718F2692F001424FB"
             BuildableName = "YaelTest.app"
             BlueprintName = "YaelTest"
             ReferencedContainer = "container:YaelTest.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "35982E3D18F155F500CE215A"
+            BlueprintIdentifier = "350E0D5718F2692F001424FB"
             BuildableName = "YaelTest.app"
             BlueprintName = "YaelTest"
             ReferencedContainer = "container:YaelTest.xcodeproj">

@@ -2,20 +2,28 @@
 //  AppDelegate.m
 //  YaelTest
 //
-//  Created by Yael Buchman on 4/6/14.
+//  Created by Yael Buchman on 4/7/14.
 //  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "YaelViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    YaelViewController *test = [[YaelViewController alloc] initWithNibName:@"YaelViewController" bundle:nil];
+    self.window.rootViewController = test;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

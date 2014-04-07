@@ -7,164 +7,169 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35982E4218F155F500CE215A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35982E4118F155F500CE215A /* Foundation.framework */; };
-		35982E4418F155F500CE215A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35982E4318F155F500CE215A /* CoreGraphics.framework */; };
-		35982E4618F155F500CE215A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35982E4518F155F500CE215A /* UIKit.framework */; };
-		35982E4C18F155F500CE215A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35982E4A18F155F500CE215A /* InfoPlist.strings */; };
-		35982E4E18F155F500CE215A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35982E4D18F155F500CE215A /* main.m */; };
-		35982E5218F155F500CE215A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35982E5118F155F500CE215A /* AppDelegate.m */; };
-		35982E5518F155F500CE215A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35982E5318F155F500CE215A /* Main_iPhone.storyboard */; };
-		35982E5818F155F500CE215A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35982E5618F155F500CE215A /* Main_iPad.storyboard */; };
-		35982E5B18F155F500CE215A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35982E5A18F155F500CE215A /* ViewController.m */; };
-		35982E5D18F155F500CE215A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35982E5C18F155F500CE215A /* Images.xcassets */; };
-		35982E6418F155F500CE215A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35982E6318F155F500CE215A /* XCTest.framework */; };
-		35982E6518F155F500CE215A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35982E4118F155F500CE215A /* Foundation.framework */; };
-		35982E6618F155F500CE215A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35982E4518F155F500CE215A /* UIKit.framework */; };
-		35982E6E18F155F500CE215A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35982E6C18F155F500CE215A /* InfoPlist.strings */; };
-		35982E7018F155F500CE215A /* YaelTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35982E6F18F155F500CE215A /* YaelTestTests.m */; };
+		350E0D5C18F2692F001424FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350E0D5B18F2692F001424FB /* Foundation.framework */; };
+		350E0D5E18F2692F001424FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350E0D5D18F2692F001424FB /* CoreGraphics.framework */; };
+		350E0D6018F2692F001424FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350E0D5F18F2692F001424FB /* UIKit.framework */; };
+		350E0D6618F2692F001424FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 350E0D6418F2692F001424FB /* InfoPlist.strings */; };
+		350E0D6818F2692F001424FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 350E0D6718F2692F001424FB /* main.m */; };
+		350E0D6C18F26930001424FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 350E0D6B18F26930001424FB /* AppDelegate.m */; };
+		350E0D6E18F26930001424FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 350E0D6D18F26930001424FB /* Images.xcassets */; };
+		350E0D7518F26930001424FB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350E0D7418F26930001424FB /* XCTest.framework */; };
+		350E0D7618F26930001424FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350E0D5B18F2692F001424FB /* Foundation.framework */; };
+		350E0D7718F26930001424FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350E0D5F18F2692F001424FB /* UIKit.framework */; };
+		350E0D7F18F26930001424FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 350E0D7D18F26930001424FB /* InfoPlist.strings */; };
+		350E0D8118F26930001424FB /* YaelTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 350E0D8018F26930001424FB /* YaelTestTests.m */; };
+		350E0D8E18F2698D001424FB /* YaelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 350E0D8C18F2698D001424FB /* YaelViewController.m */; };
+		350E0D8F18F2698D001424FB /* YaelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350E0D8D18F2698D001424FB /* YaelViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		35982E6718F155F500CE215A /* PBXContainerItemProxy */ = {
+		350E0D7818F26930001424FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 35982E3618F155F500CE215A /* Project object */;
+			containerPortal = 350E0D5018F2692F001424FB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 35982E3D18F155F500CE215A;
+			remoteGlobalIDString = 350E0D5718F2692F001424FB;
 			remoteInfo = YaelTest;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		35982E3E18F155F500CE215A /* YaelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YaelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		35982E4118F155F500CE215A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		35982E4318F155F500CE215A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		35982E4518F155F500CE215A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		35982E4918F155F500CE215A /* YaelTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YaelTest-Info.plist"; sourceTree = "<group>"; };
-		35982E4B18F155F500CE215A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		35982E4D18F155F500CE215A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		35982E4F18F155F500CE215A /* YaelTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YaelTest-Prefix.pch"; sourceTree = "<group>"; };
-		35982E5018F155F500CE215A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		35982E5118F155F500CE215A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		35982E5418F155F500CE215A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		35982E5718F155F500CE215A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		35982E5918F155F500CE215A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		35982E5A18F155F500CE215A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		35982E5C18F155F500CE215A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		35982E6218F155F500CE215A /* YaelTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YaelTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		35982E6318F155F500CE215A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		35982E6B18F155F500CE215A /* YaelTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YaelTestTests-Info.plist"; sourceTree = "<group>"; };
-		35982E6D18F155F500CE215A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		35982E6F18F155F500CE215A /* YaelTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YaelTestTests.m; sourceTree = "<group>"; };
+		350E0D5818F2692F001424FB /* YaelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YaelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		350E0D5B18F2692F001424FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		350E0D5D18F2692F001424FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		350E0D5F18F2692F001424FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		350E0D6318F2692F001424FB /* YaelTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YaelTest-Info.plist"; sourceTree = "<group>"; };
+		350E0D6518F2692F001424FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		350E0D6718F2692F001424FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		350E0D6918F2692F001424FB /* YaelTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YaelTest-Prefix.pch"; sourceTree = "<group>"; };
+		350E0D6A18F2692F001424FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		350E0D6B18F26930001424FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		350E0D6D18F26930001424FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		350E0D7318F26930001424FB /* YaelTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YaelTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		350E0D7418F26930001424FB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		350E0D7C18F26930001424FB /* YaelTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YaelTestTests-Info.plist"; sourceTree = "<group>"; };
+		350E0D7E18F26930001424FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		350E0D8018F26930001424FB /* YaelTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YaelTestTests.m; sourceTree = "<group>"; };
+		350E0D8B18F2698D001424FB /* YaelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YaelViewController.h; sourceTree = "<group>"; };
+		350E0D8C18F2698D001424FB /* YaelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YaelViewController.m; sourceTree = "<group>"; };
+		350E0D8D18F2698D001424FB /* YaelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YaelViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		35982E3B18F155F500CE215A /* Frameworks */ = {
+		350E0D5518F2692F001424FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35982E4418F155F500CE215A /* CoreGraphics.framework in Frameworks */,
-				35982E4618F155F500CE215A /* UIKit.framework in Frameworks */,
-				35982E4218F155F500CE215A /* Foundation.framework in Frameworks */,
+				350E0D5E18F2692F001424FB /* CoreGraphics.framework in Frameworks */,
+				350E0D6018F2692F001424FB /* UIKit.framework in Frameworks */,
+				350E0D5C18F2692F001424FB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35982E5F18F155F500CE215A /* Frameworks */ = {
+		350E0D7018F26930001424FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35982E6418F155F500CE215A /* XCTest.framework in Frameworks */,
-				35982E6618F155F500CE215A /* UIKit.framework in Frameworks */,
-				35982E6518F155F500CE215A /* Foundation.framework in Frameworks */,
+				350E0D7518F26930001424FB /* XCTest.framework in Frameworks */,
+				350E0D7718F26930001424FB /* UIKit.framework in Frameworks */,
+				350E0D7618F26930001424FB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		35982E3518F155F500CE215A = {
+		350E0D4F18F2692F001424FB = {
 			isa = PBXGroup;
 			children = (
-				35982E4718F155F500CE215A /* YaelTest */,
-				35982E6918F155F500CE215A /* YaelTestTests */,
-				35982E4018F155F500CE215A /* Frameworks */,
-				35982E3F18F155F500CE215A /* Products */,
+				350E0D6118F2692F001424FB /* YaelTest */,
+				350E0D7A18F26930001424FB /* YaelTestTests */,
+				350E0D5A18F2692F001424FB /* Frameworks */,
+				350E0D5918F2692F001424FB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		35982E3F18F155F500CE215A /* Products */ = {
+		350E0D5918F2692F001424FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35982E3E18F155F500CE215A /* YaelTest.app */,
-				35982E6218F155F500CE215A /* YaelTestTests.xctest */,
+				350E0D5818F2692F001424FB /* YaelTest.app */,
+				350E0D7318F26930001424FB /* YaelTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		35982E4018F155F500CE215A /* Frameworks */ = {
+		350E0D5A18F2692F001424FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				35982E4118F155F500CE215A /* Foundation.framework */,
-				35982E4318F155F500CE215A /* CoreGraphics.framework */,
-				35982E4518F155F500CE215A /* UIKit.framework */,
-				35982E6318F155F500CE215A /* XCTest.framework */,
+				350E0D5B18F2692F001424FB /* Foundation.framework */,
+				350E0D5D18F2692F001424FB /* CoreGraphics.framework */,
+				350E0D5F18F2692F001424FB /* UIKit.framework */,
+				350E0D7418F26930001424FB /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		35982E4718F155F500CE215A /* YaelTest */ = {
+		350E0D6118F2692F001424FB /* YaelTest */ = {
 			isa = PBXGroup;
 			children = (
-				35982E5018F155F500CE215A /* AppDelegate.h */,
-				35982E5118F155F500CE215A /* AppDelegate.m */,
-				35982E5318F155F500CE215A /* Main_iPhone.storyboard */,
-				35982E5618F155F500CE215A /* Main_iPad.storyboard */,
-				35982E5918F155F500CE215A /* ViewController.h */,
-				35982E5A18F155F500CE215A /* ViewController.m */,
-				35982E5C18F155F500CE215A /* Images.xcassets */,
-				35982E4818F155F500CE215A /* Supporting Files */,
+				350E0D8A18F26960001424FB /* Controllers */,
+				350E0D6A18F2692F001424FB /* AppDelegate.h */,
+				350E0D6B18F26930001424FB /* AppDelegate.m */,
+				350E0D6D18F26930001424FB /* Images.xcassets */,
+				350E0D6218F2692F001424FB /* Supporting Files */,
 			);
 			path = YaelTest;
 			sourceTree = "<group>";
 		};
-		35982E4818F155F500CE215A /* Supporting Files */ = {
+		350E0D6218F2692F001424FB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				35982E4918F155F500CE215A /* YaelTest-Info.plist */,
-				35982E4A18F155F500CE215A /* InfoPlist.strings */,
-				35982E4D18F155F500CE215A /* main.m */,
-				35982E4F18F155F500CE215A /* YaelTest-Prefix.pch */,
+				350E0D6318F2692F001424FB /* YaelTest-Info.plist */,
+				350E0D6418F2692F001424FB /* InfoPlist.strings */,
+				350E0D6718F2692F001424FB /* main.m */,
+				350E0D6918F2692F001424FB /* YaelTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		35982E6918F155F500CE215A /* YaelTestTests */ = {
+		350E0D7A18F26930001424FB /* YaelTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				35982E6F18F155F500CE215A /* YaelTestTests.m */,
-				35982E6A18F155F500CE215A /* Supporting Files */,
+				350E0D8018F26930001424FB /* YaelTestTests.m */,
+				350E0D7B18F26930001424FB /* Supporting Files */,
 			);
 			path = YaelTestTests;
 			sourceTree = "<group>";
 		};
-		35982E6A18F155F500CE215A /* Supporting Files */ = {
+		350E0D7B18F26930001424FB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				35982E6B18F155F500CE215A /* YaelTestTests-Info.plist */,
-				35982E6C18F155F500CE215A /* InfoPlist.strings */,
+				350E0D7C18F26930001424FB /* YaelTestTests-Info.plist */,
+				350E0D7D18F26930001424FB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		350E0D8A18F26960001424FB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				350E0D8B18F2698D001424FB /* YaelViewController.h */,
+				350E0D8C18F2698D001424FB /* YaelViewController.m */,
+				350E0D8D18F2698D001424FB /* YaelViewController.xib */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		35982E3D18F155F500CE215A /* YaelTest */ = {
+		350E0D5718F2692F001424FB /* YaelTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35982E7318F155F500CE215A /* Build configuration list for PBXNativeTarget "YaelTest" */;
+			buildConfigurationList = 350E0D8418F26930001424FB /* Build configuration list for PBXNativeTarget "YaelTest" */;
 			buildPhases = (
-				35982E3A18F155F500CE215A /* Sources */,
-				35982E3B18F155F500CE215A /* Frameworks */,
-				35982E3C18F155F500CE215A /* Resources */,
+				350E0D5418F2692F001424FB /* Sources */,
+				350E0D5518F2692F001424FB /* Frameworks */,
+				350E0D5618F2692F001424FB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -172,140 +177,122 @@
 			);
 			name = YaelTest;
 			productName = YaelTest;
-			productReference = 35982E3E18F155F500CE215A /* YaelTest.app */;
+			productReference = 350E0D5818F2692F001424FB /* YaelTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		35982E6118F155F500CE215A /* YaelTestTests */ = {
+		350E0D7218F26930001424FB /* YaelTestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35982E7618F155F500CE215A /* Build configuration list for PBXNativeTarget "YaelTestTests" */;
+			buildConfigurationList = 350E0D8718F26930001424FB /* Build configuration list for PBXNativeTarget "YaelTestTests" */;
 			buildPhases = (
-				35982E5E18F155F500CE215A /* Sources */,
-				35982E5F18F155F500CE215A /* Frameworks */,
-				35982E6018F155F500CE215A /* Resources */,
+				350E0D6F18F26930001424FB /* Sources */,
+				350E0D7018F26930001424FB /* Frameworks */,
+				350E0D7118F26930001424FB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				35982E6818F155F500CE215A /* PBXTargetDependency */,
+				350E0D7918F26930001424FB /* PBXTargetDependency */,
 			);
 			name = YaelTestTests;
 			productName = YaelTestTests;
-			productReference = 35982E6218F155F500CE215A /* YaelTestTests.xctest */;
+			productReference = 350E0D7318F26930001424FB /* YaelTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		35982E3618F155F500CE215A /* Project object */ = {
+		350E0D5018F2692F001424FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
-					35982E6118F155F500CE215A = {
-						TestTargetID = 35982E3D18F155F500CE215A;
+					350E0D7218F26930001424FB = {
+						TestTargetID = 350E0D5718F2692F001424FB;
 					};
 				};
 			};
-			buildConfigurationList = 35982E3918F155F500CE215A /* Build configuration list for PBXProject "YaelTest" */;
+			buildConfigurationList = 350E0D5318F2692F001424FB /* Build configuration list for PBXProject "YaelTest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 35982E3518F155F500CE215A;
-			productRefGroup = 35982E3F18F155F500CE215A /* Products */;
+			mainGroup = 350E0D4F18F2692F001424FB;
+			productRefGroup = 350E0D5918F2692F001424FB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				35982E3D18F155F500CE215A /* YaelTest */,
-				35982E6118F155F500CE215A /* YaelTestTests */,
+				350E0D5718F2692F001424FB /* YaelTest */,
+				350E0D7218F26930001424FB /* YaelTestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		35982E3C18F155F500CE215A /* Resources */ = {
+		350E0D5618F2692F001424FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35982E5818F155F500CE215A /* Main_iPad.storyboard in Resources */,
-				35982E5D18F155F500CE215A /* Images.xcassets in Resources */,
-				35982E5518F155F500CE215A /* Main_iPhone.storyboard in Resources */,
-				35982E4C18F155F500CE215A /* InfoPlist.strings in Resources */,
+				350E0D8F18F2698D001424FB /* YaelViewController.xib in Resources */,
+				350E0D6618F2692F001424FB /* InfoPlist.strings in Resources */,
+				350E0D6E18F26930001424FB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35982E6018F155F500CE215A /* Resources */ = {
+		350E0D7118F26930001424FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35982E6E18F155F500CE215A /* InfoPlist.strings in Resources */,
+				350E0D7F18F26930001424FB /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		35982E3A18F155F500CE215A /* Sources */ = {
+		350E0D5418F2692F001424FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35982E5B18F155F500CE215A /* ViewController.m in Sources */,
-				35982E5218F155F500CE215A /* AppDelegate.m in Sources */,
-				35982E4E18F155F500CE215A /* main.m in Sources */,
+				350E0D6C18F26930001424FB /* AppDelegate.m in Sources */,
+				350E0D6818F2692F001424FB /* main.m in Sources */,
+				350E0D8E18F2698D001424FB /* YaelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35982E5E18F155F500CE215A /* Sources */ = {
+		350E0D6F18F26930001424FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35982E7018F155F500CE215A /* YaelTestTests.m in Sources */,
+				350E0D8118F26930001424FB /* YaelTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		35982E6818F155F500CE215A /* PBXTargetDependency */ = {
+		350E0D7918F26930001424FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 35982E3D18F155F500CE215A /* YaelTest */;
-			targetProxy = 35982E6718F155F500CE215A /* PBXContainerItemProxy */;
+			target = 350E0D5718F2692F001424FB /* YaelTest */;
+			targetProxy = 350E0D7818F26930001424FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		35982E4A18F155F500CE215A /* InfoPlist.strings */ = {
+		350E0D6418F2692F001424FB /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				35982E4B18F155F500CE215A /* en */,
+				350E0D6518F2692F001424FB /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		35982E5318F155F500CE215A /* Main_iPhone.storyboard */ = {
+		350E0D7D18F26930001424FB /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				35982E5418F155F500CE215A /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		35982E5618F155F500CE215A /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				35982E5718F155F500CE215A /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		35982E6C18F155F500CE215A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				35982E6D18F155F500CE215A /* en */,
+				350E0D7E18F26930001424FB /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -313,10 +300,11 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		35982E7118F155F500CE215A /* Debug */ = {
+		350E0D8218F26930001424FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -342,20 +330,21 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		35982E7218F155F500CE215A /* Release */ = {
+		350E0D8318F26930001424FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -375,17 +364,17 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		35982E7418F155F500CE215A /* Debug */ = {
+		350E0D8518F26930001424FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -398,7 +387,7 @@
 			};
 			name = Debug;
 		};
-		35982E7518F155F500CE215A /* Release */ = {
+		350E0D8618F26930001424FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -411,9 +400,10 @@
 			};
 			name = Release;
 		};
-		35982E7718F155F500CE215A /* Debug */ = {
+		350E0D8818F26930001424FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YaelTest.app/YaelTest";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -433,9 +423,10 @@
 			};
 			name = Debug;
 		};
-		35982E7818F155F500CE215A /* Release */ = {
+		350E0D8918F26930001424FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YaelTest.app/YaelTest";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -454,32 +445,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		35982E3918F155F500CE215A /* Build configuration list for PBXProject "YaelTest" */ = {
+		350E0D5318F2692F001424FB /* Build configuration list for PBXProject "YaelTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35982E7118F155F500CE215A /* Debug */,
-				35982E7218F155F500CE215A /* Release */,
+				350E0D8218F26930001424FB /* Debug */,
+				350E0D8318F26930001424FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35982E7318F155F500CE215A /* Build configuration list for PBXNativeTarget "YaelTest" */ = {
+		350E0D8418F26930001424FB /* Build configuration list for PBXNativeTarget "YaelTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35982E7418F155F500CE215A /* Debug */,
-				35982E7518F155F500CE215A /* Release */,
+				350E0D8518F26930001424FB /* Debug */,
+				350E0D8618F26930001424FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		35982E7618F155F500CE215A /* Build configuration list for PBXNativeTarget "YaelTestTests" */ = {
+		350E0D8718F26930001424FB /* Build configuration list for PBXNativeTarget "YaelTestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35982E7718F155F500CE215A /* Debug */,
-				35982E7818F155F500CE215A /* Release */,
+				350E0D8818F26930001424FB /* Debug */,
+				350E0D8918F26930001424FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 35982E3618F155F500CE215A /* Project object */;
+	rootObject = 350E0D5018F2692F001424FB /* Project object */;
 }
